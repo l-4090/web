@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Krusty Krab Restaurant</title>
+</head>
+</body>
+<!--Kebab Menu-->
+<div class="menu">
+    <button class="kebab" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    <ul class="menu-list" id="menuList">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#chef">Chef</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+<script>
+    function toggleMenu() {
+        const menuList = document.getElementById('menuList');
+        menuList.classList.toggle('show');
+    }
+</script>
+
+<!--hero section begin-->
+<div id="hero">
+     <div id="hero_content">
+     <h1>Krusty Krab Restaurant</h1>
+     <h2>A review of our favorite Krabby Patty menu items</h2>
+     <a href="#menu">Menu</a>
+     </div>
+</div>
+<!--hero section End-->
+<!--Header section Begin-->
+<div id="header">
+    <nav id="navbar">
+        <h1>Krusty Krab Fav</h1>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#chef">Chefs</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="phone">
+            <a href="tel:+639055508839">+639055508839</a>
+        </div>
+    </nav> 
+    <div id="mobile_menu">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#chef">Chef</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</head>
+<body>
+
+<!-- About Menu Section-->
+    <h1 id="menu" class="menu-title">Krusty Krab Menu</h1>
+    <table border="1">
+        <tr>
+            <th>DESSERT</th>
+            <th>BEVERAGES</th>
+            <th>BURGERS</th>
+        </tr>
+        <tr>
+            <td class="description">
+                Serving you marvelous desserts—just like Micah, who is sweet and full of surprises. Every bite melts in your mouth, leaving you with a feeling of warmth and happiness, just like her presence.
+                <br>
+                <span class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </span>
+            </td>
+            <td class="description">
+                Cool, refreshing, and quietly essential—our beverages are like Lhey. She may not always be the loudest in the room, but just like the perfect drink, her presence brings a quiet comfort and balance to those around her.
+                <br>
+                <span class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </span>
+            </td>
+            <td class="description">
+                Burgers aren’t just about what’s on the surface—they’re about the layers of flavor inside. Nicole is the same way. She may be quiet at first, but those who take the time to know her will find warmth, just like every bite of our delicious burgers.
+                <br>
+                <span class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </span>
+                </td>
+        <tr>
+            <td><img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-chocolate-brownies-on-wooden-table-png-image_11911566.png" alt="Barnacle Brownie"><br>Barnacle Brownie</td>
+            <td><img src="https://i.pinimg.com/564x/7a/32/95/7a329501bfca2a5d6142ba46126590b4.jpg" alt="Jelly Kelp Shake"><br>Jelly Kelp Shake</td>
+            <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f553867a-642f-48d1-aa43-7bc3a2d1f8fc/dfai6nl-eada4e1e-bd23-4303-ae17-ae226bb121f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1NTM4NjdhLTY0MmYtNDhkMS1hYTQzLTdiYzNhMmQxZjhmY1wvZGZhaTZubC1lYWRhNGUxZS1iZDIzLTQzMDMtYWUxNy1hZTIyNmJiMTIxZjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kZQOfH6bp-KGF6Z-9TzcArPS5p9f1njGcRWEM46K8sY" alt="Krabby Patty"><br>Krabby Patty</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.ibb.co/KcZ0PKc7/Just-One-Bite-004.webp" alt="King-Size Ultra Krabby Supreme"><br>King-Size Ultra Krabby Supreme</td>
+            <td><img src="https://preview.redd.it/where-is-the-soda-machine-in-the-krusty-krab-v0-9lg26vzk55uc1.jpeg?auto=webp&s=b5a971de6dbbf89d27ca5f62adfd0d21d94e3b67" alt="Krusty Krab Soda"><br>Krusty Krab Soda</td>
+            <td><img src="https://i.ibb.co/xKVBSbTC/Deluxe-Krabby-Patty.webp"alt="Krabby Double Deluxe"><br>Krabby Double Delux</td>
+        </tr>
+        <tr>
+            <td><img src="https://i.ibb.co/dsXCQJgz/Pattykake.webp"alt="Pattykake"><br>Pattykake</td>
+            <td><img src="https://gw.alicdn.com/imgextra/i4/4611686018427386504/O1CN018I4DDj1N9sDrvLrkY_!!4611686018427386504-2-rate.png_200x200Q75.jpg_.webp"alt="Double Dip Milkshake"><br>Double Dip Milkshake</td>
+            <td><img src="https://i.ibb.co/Pzg548xJ/Jelly-Patty.webp"alt="Jelly Patty"><br>Jelly Patty</td>
+        </tr>
+    </table>
+ <!-- Chef Section -->
+     <div id="chef" class="chefs_section">
+         <a href="nicole.html">
+             <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73e7e895-ebb4-4062-bc47-cd0f3505b1ae/dfel2cp-03d504ac-8f25-4297-a253-cd0f0d55a856.png/v1/fit/w_828,h_1210/sbstandsonsmthng_spongebob_png_by_polexlim_dfel2cp-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUwMCIsInBhdGgiOiJcL2ZcLzczZTdlODk1LWViYjQtNDA2Mi1iYzQ3LWNkMGYzNTA1YjFhZVwvZGZlbDJjcC0wM2Q1MDRhYy04ZjI1LTQyOTctYTI1My1jZDBmMGQ1NWE4NTYucG5nIiwid2lkdGgiOiI8PTEwMjYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ._kcTm2JqS11NJmNSJYmBdkpwI6kJbYldhVSxtce-WjA" alt="SpongeBob Squarepants">
+         <a href="micah.html">
+             <img src="https://wallpapers.com/images/hd/happy-patrick-star-jumping-cfno910biqyyxhsr.png" alt="Patrick Star">
+         </a>
+         <a href="lhey.html">
+             <img src="https://i.redd.it/5ua39ql7hdd61.png" alt="Squidward Tentacles">
+         </a>
+     </div>
+ </body>
+ </html>
+    <!-- About Us Section -->
+    <div id="about">
+        <h1 id="section">About</h1>
+        <div id="about_row">
+            <div class="about_col">
+                <h1>About Us</h1>
+                <p class="moving-text" onclick="this.classList.toggle('moved')">
+                    Welcome to the Krusty Krab, where we've been listing our most favorite Krabby Krab menu items!
+                  The secret kruby patty formula is a culinary legend under the sea, with freshest ingredients that made them our favourites!
+                   This website is about our testimonies on how many krabby patty foods is sure to made us wanna experience to taste them in reality!
+                </p>
+            </div>
+            <div class="about_col">
+                <div id="about_img">
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnF6MGM3MWltdHYwNWtmd2RqN3Yyd3B3Nmhjc2Q1dG10MW5hZGVvNCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/ZXr3lxT6IwSv69p94J/giphy.webp" alt="About Us Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <h1 id="section">Contact</h1>
+        <div id="contact_row">
+            <div class="contact_col">
+                <div>
+                    <h3>Address</h3>
+                    <p><i class="fa fa-map-marker"></i> Bataan Peninsula State University</p>
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:09157745797"><i class="fa fa-phone-square"></i> 09157745797</a></p>
+                    <p><a href="tel:09092307591"><i class="fa fa-phone-square"></i> 09092307591</a></p>
+                    <p><a href="tel:09157434624"><i class="fa fa-phone-square"></i> 09157434624</a></p>
+                    <h5>Follow Us</h5>
+                    <p id="social">
+                        <a href="https://www.facebook.com/lhey.valencia.37" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="https://www.facebook.com/mcbtst02" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="https://www.facebook.com/nicoleanne.odover.5" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="contact_col">
+                <form>
+                    <h2>Get in Touch</h2>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="6" placeholder="Type Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Footer Section -->
+<div id="footer">
+    <div>
+      <h6>Copyright &copy;2025 | <a href="">Ctrl+Alt+Defeat</a></h6>
+    </div>
+    <div id="top">
+      <a href=""><i class="fa fa-chevron-circle-up"></i></a>
+    </div>
+  </div>
+</body>
+</html>
+</body>
+</html>
